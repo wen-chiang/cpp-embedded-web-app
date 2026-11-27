@@ -1,0 +1,6 @@
+# ninja log v7
+8	628	8174564404804667	tests/CMakeFiles/cpp_embedded_web_tests.dir/test_main.cpp.obj	45e11b99c452cf52
+12	4784	8174564404844653	tests/CMakeFiles/cpp_embedded_web_tests.dir/test_routes.cpp.obj	435279fae7071948
+4789	5063	8174564452613473	tests/cpp_embedded_web_tests.exe	707a74faa30a27bc
+4	9787	8174564404764657	CMakeFiles/cpp_embedded_web.dir/src/main.cpp.obj	4fd05352616c1761
+9787	10087	8174564502599895	cpp_embedded_web.exe	cb0871c159be9caf

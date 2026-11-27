@@ -1,0 +1,39 @@
+# Build artifacts
+build/
+cmake_install.cmake
+CMakeCache.txt
+CMakeFiles/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Git
+.git/
+.gitignore
+
+# Documentation
+*.md
+docs/
+
+# Tests (we'll run them in builder, but exclude from runtime)
+tests/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Build script
+build.ps1
+
+# Node modules (if any)
+node_modules/

@@ -1,0 +1,43 @@
+version: '3.8'
+
+services:
+  cpp-web-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    
+    container_name: cpp-embedded-web-app
+    
+    ports:
+      - "8080:8080"
+    
+    environment:
+      - APP_PORT=8080
+    
+    # Health check
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/"]
+      interval: 30s
+      timeout: 3s
+      retries: 3
+      start_period: 5s
+    
+    # Restart policy
+    restart: unless-stopped
+    
+    # Resource limits (optional, uncomment to enable)
+    # deploy:
+    #   resources:
+    #     limits:
+    #       cpus: '0.5'
+    #       memory: 256M
+    #     reservations:
+    #       cpus: '0.25'
+    #       memory: 128M
+    
+    # Logging
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"

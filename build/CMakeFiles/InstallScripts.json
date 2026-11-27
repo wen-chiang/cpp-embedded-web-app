@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Wrok_Zone/cpp-embedded-web-app/build/cmake_install.cmake",
+		"C:/Wrok_Zone/cpp-embedded-web-app/build/tests/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

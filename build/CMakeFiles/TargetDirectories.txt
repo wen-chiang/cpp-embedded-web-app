@@ -1,0 +1,8 @@
+C:/Wrok_Zone/cpp-embedded-web-app/build/CMakeFiles/cpp_embedded_web.dir
+C:/Wrok_Zone/cpp-embedded-web-app/build/CMakeFiles/test.dir
+C:/Wrok_Zone/cpp-embedded-web-app/build/CMakeFiles/edit_cache.dir
+C:/Wrok_Zone/cpp-embedded-web-app/build/CMakeFiles/rebuild_cache.dir
+C:/Wrok_Zone/cpp-embedded-web-app/build/tests/CMakeFiles/cpp_embedded_web_tests.dir
+C:/Wrok_Zone/cpp-embedded-web-app/build/tests/CMakeFiles/test.dir
+C:/Wrok_Zone/cpp-embedded-web-app/build/tests/CMakeFiles/edit_cache.dir
+C:/Wrok_Zone/cpp-embedded-web-app/build/tests/CMakeFiles/rebuild_cache.dir
